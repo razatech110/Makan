@@ -5,12 +5,15 @@
 .h-color{
     color: var(--green-color);
 }
+.bg-success{
+    background-color: var(--green-color) !important;
+}
 .logo-img{
     border: 1px dashed var(--green-color);
     border-radius: 100%;
     padding: 8px;
 }
-.head-img img{
+.logoo-img img{
     height: 50px;
     width: 50px;
 }
@@ -24,4 +27,20 @@
 }
 .nav-item .nav-link:hover{
     color: var(--green-color) !important;
+}
+.t-color{
+    color: var(--green-color);
+}
+.mt-7{
+     margin-top: 230px;
+}
+.head-img{
+    height: 109vh;
+    width: 652px;
+}
+.fs-8{
+    font-size: 50px;
+}
+.search-bg{
+    background-color: black;
 }

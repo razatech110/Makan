@@ -12,42 +12,47 @@
 </head>
 
 <body>
-     <div class="container-fluid">
+     <!-- hero section starts -->
+     <section id="hero" class="position-relative">
           <!-- header navbar starts -->
-          <header>
+          <header class="position-absolute fixed-top">
                <div class="container p-0">
                     <div class="row bg-white shadow mt-5">
 
-                         <div class="d-flex align-items-center bg-white py-2 head-img">
+                         <div class="d-flex align-items-center bg-white py-2 logoo-img">
                               <img src="./assets/images/icon-deal.png" alt="Logo" class="logo-img ms-2">
                               <h1 class="h-color fw-bold ms-3">Makaan</h1>
 
                               <nav class="navbar navbar-expand-lg ms-auto">
                                    <div class="container-fluid">
-                                        
+
                                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                                   <li class="nav-item">
-                                                       <a class="nav-link active fw-bold pe-3" aria-current="page" href="#">HOME</a>
+                                                       <a class="nav-link active fw-bold pe-3" aria-current="page"
+                                                            href="#">HOME</a>
                                                   </li>
                                                   <li class="nav-item">
                                                        <a class="nav-link fw-bold pe-3" href="#">ABOUT</a>
                                                   </li>
                                                   <li class="nav-item dropdown">
-                                                       <a class="nav-link dropdown-toggle fw-bold pe-3" href="#" role="button"
-                                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                                       <a class="nav-link dropdown-toggle fw-bold pe-3" href="#"
+                                                            role="button" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
                                                             PROPERTY
                                                        </a>
                                                        <ul class="dropdown-menu">
                                                             <li><a class="dropdown-item" href="#">Property List</a></li>
                                                             <li><a class="dropdown-item" href="#">Property Type</a></li>
-                                                            <li><a class="dropdown-item" href="#">Property Agent</a></li>
+                                                            <li><a class="dropdown-item" href="#">Property Agent</a>
+                                                            </li>
                                                        </ul>
                                                   </li>
 
                                                   <li class="nav-item dropdown">
-                                                       <a class="nav-link dropdown-toggle fw-bold pe-3" href="#" role="button"
-                                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                                       <a class="nav-link dropdown-toggle fw-bold pe-3" href="#"
+                                                            role="button" data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
                                                             PAGES
                                                        </a>
                                                        <ul class="dropdown-menu">
@@ -58,10 +63,10 @@
                                                   <li class="nav-item">
                                                        <a class="nav-link fw-bold pe-4" href="#">CONTACT</a>
                                                   </li>
-                                                 
+
                                              </ul>
                                              <form class="d-flex" role="search">
-                                                  
+
                                                   <button class="btn btn-color" type="submit">Add Property</button>
                                              </form>
                                         </div>
@@ -74,8 +79,71 @@
                </div>
           </header>
           <!-- header navbar ends -->
-           
 
+          <div class="container-fluid">
+               <div class="row">
+                    <div class="col-md-6">
+                         <div class="mt-7 ms-5">
+                              <div class="text-secondary-emphasis">
+                                   <h1 class="fw-bold fs-8">Find A <span class="t-color">Perfect Home</span> To <br>Live
+                                        With Your Family</h1>
+                              </div>
+                              <div class="text-secondary mt-4">
+                                   <p>Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum
+                                        ipsum <br>et diam justo clita et kasd rebum sea elitr.</p>
+                              </div>
+                              <div>
+                                   <button class="btn btn-color px-5 py-3" type="submit">Get Started</button>
+                              </div>
+                         </div>
+
+                    </div>
+                    <div class="col-md-6">
+                         <div class=""> <img src="./assets/images/header.jpg" class="img-fluid head-img"></div>
+                    </div>
+
+
+               </div>
+          </div>
+     </section>
+     <!-- hero section ends -->
+
+     <!-- box part below img statrs -->
+     <div class="container-fluid bg-success">
+          <div class="container py-5">
+               <div class="row">
+                    <div class="col-md-10 m-0">
+                         <div class="row">
+                              <div class="col-md-4 m-0">
+                                   <input type="text" class="form-control border-0 py-3" placeholder="Search Keyword">
+                              </div>
+                              <div class="col-md-4 m-0">
+                                   <select class="form-select border-0 py-3">
+                                        <option>Property Type</option>
+                                        <option>Property Type 1</option>
+                                        <option>Property Type 2</option>
+                                        <option>Property Type 3</option>
+                                   </select>
+                              </div>
+                              <div class="col-md-4 m-0">
+                                   <select class="form-select border-0 py-3">
+                                        <option>Location</option>
+                                        <option>Location 1</option>
+                                        <option>Location 2</option>
+                                        <option>Location 3</option>
+                                   </select>
+                              </div>
+
+                         </div>
+                    </div>
+                    <div class="col-md-2 m-0">
+                         <input type="search" class="form-control border-0 py-3" placeholder="Search">
+
+                    </div>
+
+               </div>
+
+          </div>
      </div>
 
 
