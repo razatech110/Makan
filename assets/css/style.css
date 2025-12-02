@@ -139,5 +139,7 @@
     width: 45px;
     height: 45px;
 }
-
+.bg-blue{
+    background-color: rgba(62, 62, 124, 0.554);
+}
 
