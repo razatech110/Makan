@@ -90,7 +90,7 @@
     z-index: 2;
 }
 
-.btn-success {
+/* .btn-success {
     background-color: var(--green-color) !important;
     border: none !important;
 }
@@ -98,7 +98,7 @@
 .btn-outline-success {
     background-color: var(--green-color) !important;
     border: none !important;
-}
+} */
 
 .top-border {
     border-top: 1px dashed var(--green-color);
