@@ -41,8 +41,8 @@
 }
 
 .head-img {
-    height: 109vh;
-    width: 652px;
+    height: 100vh;
+    width: 662px;
 }
 
 .fs-8 {
@@ -112,4 +112,13 @@
 }
 .bottom-position {
     bottom: -21px;
+}
+#property-list .btn-success {
+    background-color: var(--green-color) !important;
+    border: none !important;
+}
+#property-list .btn-success:hover {
+      background-color: green !important;
+      color: white !important;
+
 }
