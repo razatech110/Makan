@@ -157,4 +157,10 @@
 .img-padding{
     margin: 1px !important;
 }
+.text-border{
+    border-right: 1px solid rgba(255, 255, 255, 0.269);
+    padding-right: 15px;
+    color: var(--green-color) !important;
+    line-height: 10px;
+}
 
